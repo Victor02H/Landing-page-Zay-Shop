@@ -1,0 +1,173 @@
+main .products-slide {
+    width: 100%;
+    height: 640px;
+    padding: 0 4%;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url('../images/banner-shampoo-bottle.jpg');
+}
+
+main .products-information-slide {
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+main .products-information-slide h1 {
+    font-size: 46px;
+    letter-spacing: 2px;
+    color: #2e2e2e;
+}
+
+main .products-information-slide h2 {
+    padding: 14px 0 8px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #262626;
+}
+
+main .products-information-slide p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #2e2e2e;
+}
+
+main .products-categories,
+main .featured-products {
+    width: 100%;
+    padding: 60px 2%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .products-categories h2,
+main .featured-products h2 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #2e2e2e;
+}
+
+main .products-categories p,
+main .featured-products p {
+    width: 60%;
+    padding: 12px 0;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #262626;
+}
+
+main .categories-container,
+main .featured-product-container {
+    width: 100%;
+    padding: 40px 30px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .categories-container figure,
+main .featured-products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .categories-container img {
+    width: 190px;
+    height: 190px;
+
+    object-fit: contain;
+
+    border: 1px solid #c3c3c3;
+    border-radius: 50%;
+}
+
+main .categories-container h3 {
+    padding: 10px 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #2e2e2e;
+}
+
+main .categories-container button {
+    width: 90px;
+    padding: 6px 0;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #008600;
+    color: white;
+
+    cursor: pointer;
+    transition: background .4s;
+}
+
+main .categories-container button:hover {
+    background-color: #006600;
+}
+
+main .featured-products {
+    background-color: #e4e9f0;
+}
+
+main .featured-product-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .featured-product-single {
+    /* width: 350px; */
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid #c3c3c3;
+    background-color: #ffffff;
+}
+
+main .featured-product-single img {
+    width: 100%;
+    /* height: 268px; */
+    border-radius: 8px 8px 0 0;
+}
+
+main .featured-product-legend {
+    padding: 20px;
+}
+
+main .qualification-and-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .qualification-and-price ul {
+    display: flex;
+    list-style: none;
+    color: #c5aa0f;
+    font-size: 18px;
+}
+
+main .qualification-and-price span {
+    font-size: 18px;
+    color: #585858;
+}
+
+main .featured-product-legend h3 {
+    padding: 20px 0 0 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+main .featured-product-legend p {
+    width: 100%;
+    padding: 0 0 14px 0;
+    font-size: 17px;
+    text-align: left;
+}

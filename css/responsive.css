@@ -1,0 +1,161 @@
+@media screen and (max-width: 1024px) {
+    main .products-slide {
+        background-position: center;
+    }
+
+    main .products-information-slide {
+        width: 68%;
+    }
+
+    main .products-categories p, main .featured-products p {
+        width: 90%;
+    }
+
+    main .featured-product-container {
+        justify-content: space-around;
+    }
+
+    main .featured-product-single {
+        width: 350px;
+        margin: 0 0 80px 0;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header-links .others-pages li {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-desktop {
+        display: none;
+    }
+
+    .header-mobile .fa-bars {
+        font-size: 42px;
+        color: #008600;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    #menu-mobile {
+        display: block;
+    }
+
+    #menu-mobile ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-mobile ul li {
+        margin: 45px 0;
+    }
+
+    #menu-mobile.show_menu {
+        left: 0;
+    }
+
+    main .products-slide {
+        height: 400px;
+        background-size: cover;
+    }
+
+    main .products-information-slide {
+        width: 74%;
+    }
+
+    main .products-information-slide h1 {
+        font-size: 42px;
+    }
+
+    main .products-information-slide h3 {
+        font-size: 23px;
+    }
+
+    main .products-information-slide p {
+        font-size: 16px;
+    }
+
+    footer .footer-content figure {
+        width: 46%;
+    }
+
+    footer .footer-social-media {
+        flex-direction: column;
+    }
+
+    footer .footer-social-media form {
+        width: 100%;
+        padding-top: 40px;
+        display: flex;
+    }
+
+    footer .footer-social-media input {
+        width: 100%;
+    }
+
+    footer .footer-social-media button {
+        right: 1px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    main .products-slide {
+        height: 400px;
+        /* padding: 0 4%; */
+        background-image: url('../images/banner-shampoo-bottle-small.jpg');
+    }
+
+    main .products-information-slide {
+        width: 92%;
+    }
+
+    main .products-information-slide h1 {
+        font-size: 28px;
+    }
+
+    main .products-information-slide h3 {
+        font-size: 16px;
+    }
+
+    main .products-information-slide p {
+        display: none;
+    }
+
+    main .products-categories h2, 
+    main .featured-products h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    main .products-categories p, 
+    main .featured-products p {
+        font-size: 16px;
+    }
+
+    main .categories-container figure {
+        padding: 40px 0;
+    }
+
+    footer .footer-content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .footer-content figure {
+        width: 350px;
+    }
+
+    footer aside {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main .products-information-slide {
+        width: 100%;
+    }
+}

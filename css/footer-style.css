@@ -1,0 +1,117 @@
+footer {
+    width: 100%;
+    padding: 20px 4%;
+    background-color: #232830;
+}
+
+footer .footer-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+footer .footer-content figure {
+    width: 350px;
+}
+
+footer .footer-content figure h2 {
+    font-size: 32px;
+}
+
+footer .footer-content .figure-subtitle {
+    font-weight: 500;
+    color: white;
+}
+
+footer .footer-content figcaption {
+    padding: 20px 0 60px 0;
+    border-top: 1px solid #3d3d3d;
+}
+
+footer .footer-content figcaption ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+footer .footer-content figcaption li {
+    margin: 8px 0;
+    cursor: pointer;
+    color: #c3c3c3;
+}
+
+footer .footer-content figcaption li:hover {
+    color: white;
+}
+
+footer .footer-social-media {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-social-media ul {
+    display: flex;
+    font-size: 32px;
+    list-style-type: none;
+    color: #c3c3c3;
+}
+
+footer .footer-social-media li {
+    margin: 0 20px 0 0;
+    border: 1px solid #3d3d3d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer .footer-social-media li:hover {
+    color: white;
+}
+
+footer .footer-social-media li i {
+    padding: 10px;
+}
+
+footer .footer-social-media input {
+    padding: 4px 10px;
+    font-size: 18px;
+    border: 1px solid #3d3d3d;
+    background-color: #ffffff00;
+    color: #ffff;
+    outline: none;
+}
+
+footer .footer-social-media button {
+    padding: 5px 10px;
+    font-size: 18px;
+
+    position: relative;
+    right: 5px;
+
+    background-color: #008600;
+    border-radius: 0 4px 4px 0;
+    transition: background .4s;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+    border: none;
+
+}
+
+footer .footer-social-media button:hover {
+    background-color: #006600;
+}
+
+footer aside {
+    width: 100%;
+    padding: 30px 4%;
+
+    position: absolute;
+    left: 0;
+
+    background-color: #202329;
+    color: #c7c7c7;
+}

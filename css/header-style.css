@@ -1,0 +1,80 @@
+/* HEADER DESKTOP */
+.header-desktop aside {
+    width: 100%;
+    height: 40px;
+    padding: 0 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1e1f24;
+}
+
+.header-desktop aside ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+}
+
+.header-desktop aside ul li {
+    margin: 0 12px;
+}
+
+.header-content {
+    width: 100%;
+    height: 94px;
+    padding: 0 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 42px;
+    color: #008600;
+}
+
+.header-navigation {
+    width: 100%;
+    display: flex;
+}
+
+.header-links .others-pages,
+.header-icons .social-medias {
+    display: flex;
+    list-style: none;
+} 
+
+.header-links .others-pages li {
+    margin: 0 44px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #5a5a5a;
+}
+
+.header-icons .social-medias li {
+    font-size: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    color: #2e2e2e;
+}
+
+.header-mobile {
+    display: none;
+}
+
+#menu-mobile {
+    /* width: 360px; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 94px;
+    left: -100%;
+    background-color: white;
+    border-top: 4px solid #008600;
+    transition: .4s;
+    z-index: 999;
+}
